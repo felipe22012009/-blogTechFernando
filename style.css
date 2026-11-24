@@ -1,6 +1,6 @@
-header {
-    background-color: #183C63;
-    color: #FFFFFF;
+header{
+    background-color: black;
+    color: aliceblue;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -8,23 +8,83 @@ header {
 }
 
 main {
-    background-color: #FFFFFF;
-    color: #183C63;
+    background-color: aliceblue;
+    color: #000;
     max-width: 800px;
     margin: 0 auto;
     padding: 16px;
+    flex-wrap: 16px;
 }
-
-article {
+article{
     display: flex;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 25%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px #91e643;
 }
 
-img {
+img{
     width: 80px;
     height: 80px;
 }
 
-.artigo-autor {
+  .artigo-autor{
     font-weight: bold;
+
+}
+/* TEMA ESCURO */
+.tema-escuro p {
+  color: xxx;
+}
+
+.tema-escuro header p {
+  color: xxx;
+  font-weight: 600;
+}
+
+.tema-escuro a {
+  color: xxx;
+}
+
+.tema-escuro button {
+  border: none;
+  background-color: xxx;
+  color: xxx;
+}
+
+.tema-escuro article {
+  background-color: #f7eeee0c;
+}
+
+.tema-escuro h2 {
+  color: xxx;
+}
+
+.tema-escuro .artigo-autor {
+  color: xxx;
+}
+
+.tema-escuro .btn-tema-escuro {
+  background-color:
+}
+
+.btn-tema-escuro {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  font-size: 32px;
+  padding: 12px;
+  background-color: xxx;
+  border-radius: 50%;
+}
+
+.tema-escuro footer {
+  background-color: 
+  color: 
 }
 
